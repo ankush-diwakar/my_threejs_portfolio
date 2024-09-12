@@ -195,3 +195,21 @@ body {
     transform: rotate(0deg);
   }
 }
+
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #716e6e; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eeedf0; 
+}
