@@ -1,4 +1,4 @@
-# 🚀 # 3JS Portfolio😎 ✨
+# 🚀 MY 3JS Portfolio😎 ✨
 
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
@@ -34,7 +34,7 @@ Welcome to my immersive 3D portfolio universe! 🌌 A cutting-edge showcase blen
 
 1. Clone the repository from the cosmos:
 ```bash
-git clone [https://github.com/your-username/portfolio.git](https://github.com/ankush-diwakar/my_threejs_portfolio.git)
+git clone https://github.com/ankush-diwakar/my_threejs_portfolio.git
 ```
 
 2. Navigate to the project directory:
@@ -55,4 +55,11 @@ npm install
 npm run dev
 ```
 
-## 🚀 Hosted on wwww.ankushdiwakar.tech
+# 🌟 Portfolio Website  
+Check out my portfolio to explore my work and projects:  
+🔗 [www.ankushdiwakar.tech](https://www.ankushdiwakar.tech)  
+
+---
+
+## 📬 Contact Me  
+Feel free to reach out through the website's contact form or connect with me on [LinkedIn](https://www.linkedin.com/in/ankush-diwakar-024181284/).
