@@ -240,6 +240,39 @@ export const navLinks = [
         },
       ],
     },
+    {
+      title: '3JS Model - Animated 3D Model Showcase',
+      desc: 'This project is a sleek, modern 3D website created using Three.js, showcasing a 3D model with animations, providing a visually captivating experience. It combines the latest in design trends and performance optimization.',
+      subdesc:
+        'This project is a dynamic, interactive website built with Three.js (displaying a 3D model with animations) also used Lenis for smooth scrolling and GSAP for engaging animations. Also used Tailwind for styling. Note ~ It might take a few minutes to load.',  
+      href: 'https://animatedmodelshowcase.vercel.app/',
+      texture: '/textures/project/project6.mp4',
+      logo: '/assets/project5.png',
+      logoStyle: {
+        backgroundColor: '#fff',
+        border: '0.1px solid #000',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+    
+        {
+          id: 1,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 2,
+          name: 'GSAP',
+          path: '/assets/gsap_logo.png',
+        },
+        {
+          id: 3,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {

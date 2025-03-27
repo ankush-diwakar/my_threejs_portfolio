@@ -35,13 +35,13 @@ const Hero = () => {
                             <ambientLight intensity={1} />
                             <OrbitControls />
                             <PerspectiveCamera makeDefault position={[0, 0, 27]} />
-                            <HeroCamera isMobile={isMobile}>
+                            {/* <HeroCamera isMobile={isMobile}> */}
                                 <HackerRoom
                                     position={[1.5, -6.9, 2.7]}
                                     rotation={[2.3, 4.7, 1.9]}
                                     scale={isMobile ? 1.2 : 1.6}
                                 />
-                            </HeroCamera>
+                            {/* </HeroCamera> */}
                             {!isMobile && (
                                 <group>
                                     <Target position={sizes.targetPosition} />
