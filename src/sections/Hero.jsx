@@ -23,7 +23,7 @@ const Hero = () => {
   useEffect(() => {
     const intervalId = window.setInterval(() => {
       setShowResume((currentValue) => !currentValue);
-    }, 5000);
+    }, 2500);
 
     return () => window.clearInterval(intervalId);
   }, []);
@@ -78,7 +78,26 @@ const Hero = () => {
               : undefined
           }
           name={showResume ? "Download resume" : "Get in touch"}
-          isBeam={true}
+          isBeam={!showResume}
+          icon={
+            showResume ? (
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                className="h-5 w-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M12 3v12" />
+                <path d="m7 10 5 5 5-5" />
+                <path d="M5 21h14" />
+              </svg>
+            ) : null
+          }
+          iconPulse={showResume}
           containerClass="sm:w-fit w-full sm:min-w-96"
         />
       </div>
